@@ -23,6 +23,12 @@ Find all files larger than 1GB and write their paths to the file "/path/to/large
 forfiles /S /M * /C “cmd /c if @fsize GEQ 1073741824 echo @path > "/path/to/largefiles.txt"
 ```
 
+## Merge text files
+[How to Merge Text (.Txt) Files in Command Prompt](https://www.wikihow.com/Merge-Text-(.Txt)-Files-in-Command-Prompt)
+```bat
+copy *.txt "merged.txt"
+```
+
 ## cd to UNC path
 [Browse an UNC path using Windows CMD without mapping it to a network drive](https://superuser.com/questions/282963/browse-an-unc-path-using-windows-cmd-without-mapping-it-to-a-network-drive)
 ```bat
