@@ -36,3 +36,11 @@ pushd "\\network_host\a\network\path"
 :: go back
 popd
 ```
+
+## 7zip: exclude file lists and specific type of files
+[7-zip - how to use command line to include/exclude large list of files](https://superuser.com/questions/657859/7-zip-how-to-use-command-line-to-include-exclude-large-list-of-files)
+
+[Add to a 7-Zip archive: How to exclude certain file types/extensions?](https://superuser.com/questions/185135/add-to-a-7-zip-archive-how-to-exclude-certain-file-types-extensions)
+```bat
+7z.exe a Archive.7z . -r -x!*.avi -x!*.mp4 -x!*.pcd -x!*.ply  -xr@"merged.txt"
+```
