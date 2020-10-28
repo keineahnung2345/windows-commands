@@ -50,3 +50,9 @@ popd
 ```bat
 Measure-Command {your-command}
 ```
+
+## WSL command not recognized
+[`wsl` command not recognized after enabling WSL2](https://github.com/MicrosoftDocs/WSL/issues/405)
+```bat
+wsl -s Ubuntu-18.04 2
+```
