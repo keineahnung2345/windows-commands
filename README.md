@@ -49,10 +49,4 @@ popd
 [How do I measure execution time of a command on the Windows command line?](https://stackoverflow.com/questions/673523/how-do-i-measure-execution-time-of-a-command-on-the-windows-command-line)
 ```bat
 Measure-Command {your-command}
-```
 
-## WSL command not recognized
-[`wsl` command not recognized after enabling WSL2](https://github.com/MicrosoftDocs/WSL/issues/405)
-```bat
-wsl -s Ubuntu-18.04 2
-```
