@@ -1,6 +1,11 @@
 # windows-commands
 Some useful windows commands
 
+## Set environment varialbe
+```bat
+setx <env_var_name> <env_var_value>
+```
+
 ## Comment
 [批次檔中特殊符號@、::、%的用途](https://ithelp.ithome.com.tw/articles/10055209)
 ```bat
