@@ -49,9 +49,3 @@ popd
 ```bat
 7z.exe a Archive.7z . -r -x!*.avi -x!*.mp4 -x!*.pcd -x!*.ply  -xr@"merged.txt"
 ```
-
-## Powershell timer
-[How do I measure execution time of a command on the Windows command line?](https://stackoverflow.com/questions/673523/how-do-i-measure-execution-time-of-a-command-on-the-windows-command-line)
-```bat
-Measure-Command {your-command}
-
