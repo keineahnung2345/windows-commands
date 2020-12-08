@@ -11,3 +11,9 @@ robocopy /xc /xn /xo <src_dir> <dst_dir> /E
 ```
 
 `/xc`: exclude changed, `/xn`: exclude newer, `/xo`: exclude older, `/E`: copy subdirectories, including empty ones
+
+## Timer
+[How do I measure execution time of a command on the Windows command line?](https://stackoverflow.com/questions/673523/how-do-i-measure-execution-time-of-a-command-on-the-windows-command-line)
+```bat
+Measure-Command {your-command}
+```
