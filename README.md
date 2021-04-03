@@ -42,6 +42,14 @@ pushd "\\network_host\a\network\path"
 popd
 ```
 
+## unhide folder
+
+[I can't unhide my folders using folder options](https://answers.microsoft.com/en-us/windows/forum/windows_7-files/i-cant-unhide-my-folders-using-folder-options/dcaffb47-4032-4d27-95b5-c1b13618bfeb)
+
+```bat
+attrib -h -s  /s /d "/path/to/folder"
+```
+
 ## 7zip: exclude file lists and specific type of files
 [7-zip - how to use command line to include/exclude large list of files](https://superuser.com/questions/657859/7-zip-how-to-use-command-line-to-include-exclude-large-list-of-files)
 
