@@ -17,3 +17,20 @@ robocopy /xc /xn /xo <src_dir> <dst_dir> /E
 ```bat
 Measure-Command {your-command}
 ```
+
+## Ssh server
+
+[SSH Server on Windows 10](https://virtualizationreview.com/articles/2020/05/21/ssh-server-on-windows-10.aspx)
+
+To install ssh server, go to Settings > Apps > Optional features > Add a feature > OpenSSH Server > Install.
+
+To start ssh server:
+```bat
+Start-Service sshd
+Get-Service sshd
+```
+
+To send/receive file:
+```bat
+scp <user_name>@<ip_address>:<file_path_relative_to_user_home_dir> .
+```
