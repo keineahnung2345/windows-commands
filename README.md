@@ -34,6 +34,11 @@ forfiles /S /M * /C “cmd /c if @fsize GEQ 1073741824 echo @path > "/path/to/la
 copy *.txt "merged.txt"
 ```
 
+## Create a symbolic link
+```bat
+mklink /d <link_name> <target>
+```
+
 ## cd to UNC path
 [Browse an UNC path using Windows CMD without mapping it to a network drive](https://superuser.com/questions/282963/browse-an-unc-path-using-windows-cmd-without-mapping-it-to-a-network-drive)
 ```bat
