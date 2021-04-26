@@ -47,6 +47,41 @@ pushd "\\network_host\a\network\path"
 popd
 ```
 
+## log out from Windows network sharing
+[Disconnecting / logging out from Windows network share without restarting Workstation service](https://superuser.com/questions/883604/disconnecting-logging-out-from-windows-network-share-without-restarting-workst)
+
+```bat
+net use
+```
+```
+New connections will be remembered.
+
+
+Status       Local     Remote                    Network
+
+-------------------------------------------------------------------------------
+OK                     \\abc\def            Microsoft Windows Network
+The command completed successfully.
+```
+
+```bat
+net use \\abc\def /DELETE
+```
+
+```
+\\abc\def was deleted successfully.
+```
+
+```bat
+net use
+```
+
+```
+New connections will be remembered.
+
+There are no entries in the list.
+```
+
 ## unhide folder
 
 [I can't unhide my folders using folder options](https://answers.microsoft.com/en-us/windows/forum/windows_7-files/i-cant-unhide-my-folders-using-folder-options/dcaffb47-4032-4d27-95b5-c1b13618bfeb)
