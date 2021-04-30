@@ -34,3 +34,11 @@ To send/receive file:
 ```bat
 scp <user_name>@<ip_address>:<file_path_relative_to_user_home_dir> .
 ```
+
+Note: this can be used in Windows-to-Windows file transfer.
+
+Ex:
+
+```bat
+scp *.mp4 user@192.168.1.1:C:\Users\user\Downloads
+```
