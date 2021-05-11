@@ -39,6 +39,33 @@ copy *.txt "merged.txt"
 mklink /d <link_name> <target>
 ```
 
+## find computer name holding shared folder
+
+```bat
+net use
+```
+
+```
+New connections will be remembered.
+
+
+Status       Local     Remote                    Network
+
+-------------------------------------------------------------------------------
+OK                     \\abc\def            Microsoft Windows Network
+The command completed successfully.
+```
+
+## find the ip address of computer holding shared folder
+
+[Find the IP address of a Mapped Network drive in Windows](https://www.winhelponline.com/blog/find-the-ip-address-of-a-mapped-network-drive-in-windows/)
+
+After finding the computer name as "abc" using `net use`:
+
+```bat
+ping abc -4
+```
+
 ## cd to UNC path
 [Browse an UNC path using Windows CMD without mapping it to a network drive](https://superuser.com/questions/282963/browse-an-unc-path-using-windows-cmd-without-mapping-it-to-a-network-drive)
 ```bat
@@ -46,6 +73,8 @@ pushd "\\network_host\a\network\path"
 :: go back
 popd
 ```
+
+## 
 
 ## log out from Windows network sharing
 [Disconnecting / logging out from Windows network share without restarting Workstation service](https://superuser.com/questions/883604/disconnecting-logging-out-from-windows-network-share-without-restarting-workst)
