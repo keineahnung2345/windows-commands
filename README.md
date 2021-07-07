@@ -19,6 +19,12 @@ tree /f
 ```
 use /f to show files
 
+## Remove directory
+[“rm -rf” equivalent for Windows?](https://stackoverflow.com/questions/97875/rm-rf-equivalent-for-windows)
+```bat
+rd -r -force "path" # -r for recursive
+```
+
 ## Search for large files
 [4 Ways To Find Large Files In Windows 10](https://helpdeskgeek.com/how-to/find-the-largest-files-on-your-computer/)
 
