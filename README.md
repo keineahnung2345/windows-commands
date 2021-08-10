@@ -13,6 +13,13 @@ REM this is comment
 :: this is another comment
 ```
 
+## where(linux whereis)
+[Windows equivalent of whereis?](https://superuser.com/questions/21067/windows-equivalent-of-whereis)
+```bat
+where powershell
+# C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+```
+
 ## Show file structure
 ```bat
 tree /f
