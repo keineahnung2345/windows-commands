@@ -47,6 +47,13 @@ forfiles /S /M * /C “cmd /c if @fsize GEQ 1073741824 echo @path > "/path/to/la
 copy *.txt "merged.txt"
 ```
 
+## Copy multiple files
+[Can Windows' copy command handle multiple files?](https://superuser.com/questions/168336/can-windows-copy-command-handle-multiple-files)
+
+```bat
+for %%I in ("C:\dirA\*.dll" "C:\dirB\*.dll") do copy /Y %%I "C:\targetDir\"
+```
+
 ## Create a symbolic link
 ```bat
 mklink /d <link_name> <target>
