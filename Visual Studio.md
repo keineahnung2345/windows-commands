@@ -6,3 +6,14 @@
 ```bash
 cl.exe /I "<include_directory_path>" <cpp_file.cpp>
 ```
+
+## Check file differences
+[Compare two files in Visual Studio](https://stackoverflow.com/questions/13752998/compare-two-files-in-visual-studio)
+
+Call out command window: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>A</kbd>
+
+And then:
+
+```bash
+Tools.DiffFiles File1 File2
+```
