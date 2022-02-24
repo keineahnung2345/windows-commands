@@ -13,7 +13,7 @@ REM this is comment
 :: this is another comment
 ```
 
-## where(linux whereis)
+## where(linux whereis/which)
 [Windows equivalent of whereis?](https://superuser.com/questions/21067/windows-equivalent-of-whereis)
 ```bat
 where powershell
