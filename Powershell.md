@@ -42,3 +42,23 @@ Ex:
 ```bat
 scp *.mp4 user@192.168.1.1:C:\Users\user\Downloads
 ```
+
+## Error response from daemon: open \\.\pipe\docker_engine_linux: The system cannot find the file specified.
+
+[Error response from daemon: open \\.\pipe\docker_engine_linux: The system cannot find the file specified.](https://github.com/docker/for-win/issues/4495)
+
+If using:
+```bat
+docker ps
+```
+
+generates the following error:
+```
+Error response from daemon: open \\.\pipe\docker_engine_linux: The system cannot find the file specified.
+```
+
+It can be solved by:
+```bat
+Net stop com.docker.service
+Net start com.docker.service
+```
