@@ -76,6 +76,13 @@ OK                     \\abc\def            Microsoft Windows Network
 The command completed successfully.
 ```
 
+## server cannot be accessed by name but with ip
+[Server network cannot access with name but accessible with ip](https://answers.microsoft.com/en-us/windows/forum/all/server-network-cannot-access-with-name-but/26eb3b45-0780-4a8e-b722-cc51ae7a17bf)
+
+```bat
+ipconfig /flushdns
+```
+
 ## find the ip address of computer holding shared folder
 
 [Find the IP address of a Mapped Network drive in Windows](https://www.winhelponline.com/blog/find-the-ip-address-of-a-mapped-network-drive-in-windows/)
