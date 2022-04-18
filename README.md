@@ -101,8 +101,6 @@ pushd "\\network_host\a\network\path"
 popd
 ```
 
-## 
-
 ## log out from Windows network sharing
 [Disconnecting / logging out from Windows network share without restarting Workstation service](https://superuser.com/questions/883604/disconnecting-logging-out-from-windows-network-share-without-restarting-workst)
 
@@ -137,6 +135,10 @@ New connections will be remembered.
 
 There are no entries in the list.
 ```
+
+Then go to `控制台\使用者帳戶\認證管理員`, clear your credential.
+
+Disconnect to internet, try to access your network sharing on disconnection, and then connect to internet.
 
 ## unhide folder
 
