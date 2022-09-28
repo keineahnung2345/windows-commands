@@ -155,3 +155,15 @@ attrib -h -s  /s /d "/path/to/folder"
 ```bat
 7z.exe a Archive.7z . -r -x!*.avi -x!*.mp4 -x!*.pcd -x!*.ply  -xr@"merged.txt"
 ```
+
+## check pid by port(Linux netstat)
+[Windows 如何找到佔用 port 的程式?](https://blog.qoding.us/2011/07/windows-how-to-find-out-which-application-is-using-what-port/)
+```
+netstat -ano | findstr <port_number>
+```
+
+## get program name by pid(Linux ps)
+[Windows 如何找到佔用 port 的程式?](https://blog.qoding.us/2011/07/windows-how-to-find-out-which-application-is-using-what-port/)
+```
+tasklist | findstr <pid>
+```
