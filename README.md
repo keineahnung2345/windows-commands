@@ -76,6 +76,11 @@ OK                     \\abc\def            Microsoft Windows Network
 The command completed successfully.
 ```
 
+## display DNS table
+```bat
+ipconfig /displaydns
+```
+
 ## server cannot be accessed by name but with ip
 [Server network cannot access with name but accessible with ip](https://answers.microsoft.com/en-us/windows/forum/all/server-network-cannot-access-with-name-but/26eb3b45-0780-4a8e-b722-cc51ae7a17bf)
 
