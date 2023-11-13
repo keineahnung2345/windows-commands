@@ -1,6 +1,19 @@
 # windows-commands
 Some useful windows commands
 
+## Run multiple commands in one line
+[How do I run two commands in one line in Windows CMD?](https://stackoverflow.com/questions/8055371/how-do-i-run-two-commands-in-one-line-in-windows-cmd)
+
+```bat
+<cmd1> & <cmd2>
+```
+
+If you want the second command to execute only if the first exited successfully:
+
+```bat
+<cmd1> && <cmd2>
+```
+
 ## Set environment varialbe
 ```bat
 setx <env_var_name> <env_var_value>
