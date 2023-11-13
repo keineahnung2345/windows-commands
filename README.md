@@ -54,6 +54,14 @@ copy *.txt "merged.txt"
 for %%I in ("C:\dirA\*.dll" "C:\dirB\*.dll") do copy /Y %%I "C:\targetDir\"
 ```
 
+Copy recursively:
+
+[xcopy directories and subdirectories recursively and filter only filenames by extension](https://stackoverflow.com/questions/2952337/xcopy-directories-and-subdirectories-recursively-and-filter-only-filenames-by-ex)
+
+```bat
+xcopy "C:\source\dirA*" "dirA\" /sy
+```
+
 ## Create a symbolic link
 ```bat
 mklink /d <link_name> <target>
