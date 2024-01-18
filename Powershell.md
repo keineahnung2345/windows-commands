@@ -14,8 +14,11 @@ robocopy /xc /xn /xo <src_dir> <dst_dir> /E
 
 ## Timer
 [How do I measure execution time of a command on the Windows command line?](https://stackoverflow.com/questions/673523/how-do-i-measure-execution-time-of-a-command-on-the-windows-command-line)
+
+[Windows equivalent to UNIX "time" command](https://superuser.com/questions/228056/windows-equivalent-to-unix-time-command)
+
 ```bat
-Measure-Command {your-command}
+Measure-Command {start-process <your-command> -NoNewWindow -Wait}
 ```
 
 ## Ssh server
