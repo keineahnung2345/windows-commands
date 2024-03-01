@@ -13,3 +13,6 @@ Copy-VMFile "vmname" -SourcePath "vm_file_path" -DestinationPath "host_destinati
 Set-VMVideo -VMName "vmname" -HorizontalResolution 1920 -VerticalResolution 1080 -ResolutionType Single
 ```
 
+## Access host disk
+
+[Use local resources on Hyper-V virtual machine with VMConnect](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/learn-more/Use-local-resources-on-Hyper-V-virtual-machine-with-VMConnect)
